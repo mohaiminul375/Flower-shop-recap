@@ -1,0 +1,59 @@
+/* universal style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* common style */
+
+p {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+button {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 28px;
+    border: 0;
+    transition: all 1s;
+}
+button:hover {
+    background: #f13961;
+}
+/* header */
+header {
+    background: #e554731a;
+}
+/* banner */
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner .banner-text h1 {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+.banner .banner-text *{
+   margin-bottom: 32px;
+   max-width: 525px;
+}
+
+.banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
+}
