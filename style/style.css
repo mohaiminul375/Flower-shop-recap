@@ -174,3 +174,40 @@ main section {
 #hot-deal .hot-deal-container .hot-deal-img img {
     width: 100%;
 }
+
+/* footer */
+footer {
+    margin-top: 130px;
+    padding: 120px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer-text {
+    max-width: 75%;
+    max-width: 470px;
+    margin: 0 auto;
+}
+
+.footer-text h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-text h2 span {
+    color: #E55473;
+}
+.footer-text p{
+    color: white;
+}
+
+.footer-text .copyright {
+    margin-top: 32px;
+    color: #ffffff66;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
