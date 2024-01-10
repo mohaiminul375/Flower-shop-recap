@@ -174,7 +174,27 @@ main section {
 #hot-deal .hot-deal-container .hot-deal-img img {
     width: 100%;
 }
+/* newsletter */
 
+.newsletter-container{
+    background-image: url('../Flower-Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    padding: 122px 0;
+}
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
 /* footer */
 footer {
     margin-top: 130px;
